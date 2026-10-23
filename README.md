@@ -8,7 +8,7 @@ A bilingual companion for spontaneous days out in Sydney. Open Somewhere, get a 
 
 [Explore in English](https://cs721127.github.io/somewhere-sydney/?lang=en) · [简体中文](https://cs721127.github.io/somewhere-sydney/?lang=zh-CN)
 
-![Somewhere — a spontaneous Sydney outing](media/home.png)
+<p align="center"><img src="media/home-mobile.png" width="320" alt="Somewhere mobile web — a spontaneous Sydney outing"></p>
 
 ## An outing, with less planning
 
@@ -20,7 +20,7 @@ A bilingual companion for spontaneous days out in Sydney. Open Somewhere, get a 
 
 The current collection includes **177 places, 531 photographs and 54 starting areas**. Photos include clearly dated historical images. Transport times are estimates; availability uses recorded opening and review information.
 
-![A detailed Somewhere visitor guide](media/guide.png)
+<p align="center"><img src="media/guide-mobile.png" width="320" alt="A detailed Somewhere visitor guide on mobile web"></p>
 
 ## Availability
 
