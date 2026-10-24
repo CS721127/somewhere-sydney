@@ -24,7 +24,7 @@ The current collection includes **177 places, 531 photographs and 54 starting ar
 
 ## Availability
 
-The web preview supports English and Simplified Chinese on desktop and mobile browsers. Android and iOS projects are being validated; **no store release is available yet**. There are no accounts, ads or first-party visitor analytics. Location is optional and processed on your device.
+The web preview supports English and Simplified Chinese on desktop and mobile browsers. Android and iOS projects are being validated; **no store release is available yet**. There are no accounts or ads. Optional Google Analytics visitor statistics load only after consent, which can be withdrawn in settings. Location is optional and processed on your device.
 
 ## About this repository
 
