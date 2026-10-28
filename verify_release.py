@@ -21,7 +21,7 @@ for path in site.rglob('*'):
         raise SystemExit(f'Symlinks are not allowed: {path}')
     if path.is_file():
         relative = path.relative_to(site)
-        allowed = (str(relative) in ('index.html', 'LICENSE.txt', 'THIRD_PARTY_NOTICES.txt', 'data/public_catalog.json')
+        allowed = (str(relative) in ('index.html', 'LICENSE.txt', 'THIRD_PARTY_NOTICES.txt', 'data/public_catalog.json', 'robots.txt', 'sitemap.xml')
                    or (relative.parts[0] == 'assets' and path.suffix in ('.js', '.css'))
                    or (relative.parts[0] == 'brand' and path.suffix in ('.svg', '.png', '.ico', '.webmanifest')))
         if not allowed:

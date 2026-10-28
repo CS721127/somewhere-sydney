@@ -6,7 +6,7 @@
 
 A bilingual companion for spontaneous days out in Sydney. Open Somewhere, get a place, and follow a detailed guide — without building an itinerary first.
 
-[Explore in English](https://cs721127.github.io/somewhere-sydney/?lang=en) · [简体中文](https://cs721127.github.io/somewhere-sydney/?lang=zh-CN)
+[Explore in English](https://somewhere.censun.org/?lang=en) · [简体中文](https://somewhere.censun.org/?lang=zh-CN)
 
 <p align="center"><img src="media/home-mobile.png" width="320" alt="Somewhere mobile web — a spontaneous Sydney outing"></p>
 
@@ -28,7 +28,7 @@ The web preview supports English and Simplified Chinese on desktop and mobile br
 
 ## About this repository
 
-This is the public product presentation and website distribution repository. Development sources, maintenance databases, research and development history remain private. Files under `site/` are the browser-delivered application build; visitors can retrieve these runtime files.
+This is the public product presentation and legacy website distribution repository. GitHub Pages now forwards to [somewhere.censun.org](https://somewhere.censun.org/), preserving language parameters and page links. Development sources, maintenance databases, research and development history remain private. Retained browser assets and the published catalog under `site/` remain retrievable for older links and app builds.
 
 Original project-owned code, branding and editorial content are **proprietary; commercial reuse is not permitted**. This is not an open-source release. See [LICENSE](LICENSE) and [rights and credits](NOTICE.md). Third-party works retain their independent licences; those rights are not replaced by the project restriction.
 

@@ -1,10 +1,8 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="refresh" content="1;url=https://somewhere.censun.org">
   <title>Redirecting...</title>
 
   <style>
@@ -115,16 +113,32 @@
     <p class="message">Redirecting...</p>
 
     <p class="description">
-      We are moving to a new domain so please wait while we taking you there...
+      We are moving to a new domain, so please wait while we take you there...
     </p>
 
     <div class="progress">
       <div class="progress-bar"></div>
     </div>
 
-    <a href="https://example.com">
+    <a id="redirect-link" href="https://somewhere.censun.org">
       Click here if you are not redirected
     </a>
   </main>
+
+  <script>
+    const target = new URL("https://somewhere.censun.org");
+
+    // Preserve the current query parameters and hash fragment.
+    target.search = window.location.search;
+    target.hash = window.location.hash;
+
+    // Make the manual fallback link point to the same destination.
+    document.getElementById("redirect-link").href = target.href;
+
+    // Give the loading animation one second before redirecting.
+    setTimeout(() => {
+      window.location.replace(target.href);
+    }, 1000);
+  </script>
 </body>
 </html>
